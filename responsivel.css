@@ -1,0 +1,88 @@
+//* Responsível 
+@media screen and (min-width: 760px) {
+
+    /* Navegação */
+
+    nav {
+        flex-direction: row; /* em linha */
+        justify-content: space-around; /* alinhamento vertical centralizado */
+
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /* Cabeçalho */
+
+    header {
+        height: 60vh;
+        justify-content: space-around;
+    }
+
+    /* Sobre */
+
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: space-around;
+        min-height: 250px
+    }
+
+    /* Serviços */
+
+    #servicos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start; /* Começa da esquerda para direita */
+        max-width: 1000px /* largura máxima */
+        margin: 0 auto;
+    }
+
+    #servicos h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    #servicos div {
+        flex-grow: 1; /* Os itens vão aumentar de forma proporcional aos outros */
+        flex-basis: 150px; /* largura máxima para os itens */
+        padding:  0 10px;
+
+    }
+
+    /* Portfolio */
+    #portfolio {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    #portfolio h2 {
+        width: 100%; /* Largura em 100% */
+        text-align: center; /* Alinhar o texto ao centro */
+    }
+
+    #portfolio img {
+        width: 220px;
+        height:  20px;
+        
+    }
+
+    /* Contato */
+
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2,
+    #contato p {
+        width: 100%;
+    }
+
+*//
